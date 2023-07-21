@@ -1,0 +1,409 @@
+html
+{
+    background-color: #000712;
+}
+
+.TitleScreen
+{
+    text-align:center;
+    color:white;
+}
+
+.backgroundGif
+{
+    z-index:-1;
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.Ashwin
+{
+    position:absolute;
+    font-family: 'EB Garamond', serif;
+    width:100%;
+    top:36vh;
+    font-size:6vw;
+}
+
+.aboutAshwin
+{
+    font-family: 'Ysabeau Office', sans-serif;
+    width:100%;
+    position:absolute;
+    top:53vh;
+    font-size:1.5vw;
+    font-weight:bolder;
+}
+
+.content
+{
+    width:100%;
+    z-index:1;
+    position:absolute;
+    top:100vh;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.aboutMeSection
+{
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+    background-color: #011b49;
+}
+
+.pfpDiv
+{
+    margin:100px;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.myFace
+{
+    border-radius:50%;
+    text-align:center;
+    width:300px;
+    height:300px;
+}
+
+.hello
+{
+    text-align:center;
+    color:white;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size:2.5vw;
+    padding:20px;  
+}
+
+.aboutMe
+{
+    margin-left:25%;
+    margin-right:25%;
+    text-align:center;
+    color:white;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size:1.5vw;
+    padding:20px; 
+    padding-bottom:75px; 
+}
+
+.Skills
+{
+    padding-bottom:100px;
+    background-color: #011539;
+    width: 100%;
+}
+
+.skill
+{
+    position:relative;
+}
+
+.SkillsTitle
+{
+    font-family: 'EB Garamond', serif;
+    font-size:3.5vw;
+    color:white;
+    padding:80px;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+.Images
+{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    gap:150px;
+}
+
+.SkillsImages
+{
+    padding:20px;
+    background-color: white;
+    border-radius:20px;
+    width:200px;
+    height:200px;
+    margin-bottom:20px;
+    object-fit: cover;
+}
+
+.SkillNames
+{
+    display:flex;
+    width:100%;
+    gap:50px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+}
+
+.SkillAppNames
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    width:200px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.skillButtonList
+{
+    position:relative;
+    left:25px;
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.skillButton
+{
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bolder;
+    padding:10px;
+    border-radius:10px;
+    background-color: white;
+}
+
+.skillButton:hover
+{
+    cursor:pointer;
+}
+
+.Projects
+{
+    padding-bottom:100px;
+    background-color: #000f2b;
+    width: 100%;
+}
+
+.ProjectsTitle
+{
+    font-family: 'EB Garamond', serif;
+    font-size:3.5vw;
+    color:white;
+    padding:80px;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+.ProjectTitle
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2vw;
+    color:white;
+    padding:80px;
+    padding-bottom:40px;
+    text-align:center;
+}
+
+.leftimg
+{
+    float:left;
+    margin-left:15%;
+    margin-right:5%;
+}
+
+.leftimgAbout
+{
+    margin-right:20%;
+}
+
+.rightimg
+{
+    float:right;
+    margin-right:20%;
+    margin-left:5%;
+}
+
+.rightimgAbout
+{
+    margin-left:15%;
+    margin-right:5%;
+}
+
+.projectSS
+{
+    border:2px solid white;
+    border-radius:5px;
+    height:250px;
+    width:auto;
+}
+
+.aboutProject
+{
+    height:250px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+}
+
+.thingUsed
+{
+    font-family: 'Montserrat', sans-serif;
+    display:inline-block;
+    padding:5px;
+    border-radius: 10px;
+    background-color: white;
+    margin:10px;
+    margin-bottom:30px;
+    margin-left:0;
+}
+
+.projectDescription
+{
+    font-family: 'Montserrat', sans-serif;
+    width:100%;
+    margin:0;
+    color:white;
+}
+
+.comingSoon
+{
+    font-size:large;
+    margin-bottom:50px;
+    text-align:center;
+    color:aliceblue;
+}
+
+.comingSoonImg
+{
+    filter:blur(100px);
+    -webkit-filter: blur(5px);
+}
+
+.footer
+{
+    color:white !important;
+    width:100%;
+    background-color: #000712 !important; 
+}
+
+a:link 
+{
+    color: white;
+}
+  
+a:visited 
+{
+    color: white;
+}
+  
+a:hover 
+{
+    color: white;
+}
+
+a:active 
+{
+    color: white;
+}
+
+.contactMe
+{
+    background-color: #272727;
+    width:300px;
+    z-index:2;
+    height:100vh;
+    position:fixed;
+}
+
+.contactMeText
+{
+    position: relative;
+    right:42%;
+    top:37%;
+    font-size:1rem;
+    white-space: nowrap;
+    color:white;
+    transform:rotate(-90deg);
+}
+
+.contactLogos
+{
+    height:50px;
+    width:50px;
+}
+
+.outLookLogo
+{
+    margin-top:5px;
+    margin-left:7px;
+    height:30px;
+    width:30px;
+}
+
+.links
+{
+    position:relative;
+    left:40px;
+    top:39%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Hide ScrollBar */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.scrollContents
+{
+    background-color: #272727;
+    width:200px;
+    z-index:2;
+    height:100vh;
+    position:fixed;
+}
+
+.Contents
+{
+    position: relative;
+    left:39%;
+    top:62%;
+    font-size:1rem;
+    white-space: nowrap;
+    color:white;
+    transform:rotate(90deg);
+}
+
+.contentScrolls
+{
+    position:relative;
+    height:100%;
+    justify-content: center;    
+    left:35%;
+    gap:20px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+}
+
+.contentLinks:hover
+{
+    cursor:pointer;
+}
+
+.contentLinks .active
+{
+    color:white;
+}
